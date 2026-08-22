@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --color-canvas: #070b10;
+  --color-panel: #0e151d;
+  --color-panel-2: #121b25;
+  --color-line: #1c2a38;
+  --color-ink: #e8eef4;
+  --color-muted: #8a9bb0;
+  --color-accent: #3dd6c6;
+  --color-critical: #ef4455;
+  --color-high: #f59e3b;
+  --color-moderate: #e8c547;
+  --color-ok: #3ecf8e;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a3b4c;
+  border-radius: 999px;
+}
