@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LifeLine AI
 
 Intelligent emergency response, route optimization, and hospital decision support.
@@ -35,3 +36,6 @@ npm run build
 ## Privacy
 
 Anonymous patient IDs only. Do not collect names, phone numbers, or national IDs.
+=======
+# The-ambulance-that-couldn-t-wait
+>>>>>>> 2b35c48dfb13cd178c96fd6eaea58d1d2fcd020b
